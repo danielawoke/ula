@@ -8,16 +8,22 @@
 
 <h1>USAGE</h1>
 <div>ULA supports nested paranthesis logic, exponentials (including roots), and standard arithmetic and scalar operations (addition, subtraction, multiplication, and division) </div>
+<br>
 <div>ULA works by fully evaluating each term as either a function,coeficent, or varible, and then summing the result of evaluating each of those terms.  Functions are defined as terms that contain multiplcaiton, division, paranthesis, or any of such kind of compound terms. (3X^2 is a function for example). Coefiencets simply float numbers (1431.4314) and ofcourse vars are the defined vars (X,Y,etc) </div>
+<br>
 <div>With those definitions in place, here is how you use ULA</div>
+<br>
 <div>First create a function string with the following format</div>
+<br>
 <ol>
   <li>Std Arthmetic: (function/coef/var) +/-/* (function/coef/var)(</li>
   <li>Division: (function/coef/var) / (function/coef/var)</li>
   <li>Exponential: (function/coef/var) / (function/coef/var)</li>
   <li>Parantheis: ( (function/coef/var) ) {operator} (function/...)</li>
 </ol> 
-<div>Note: To use roots you simply use a number less that 1 (x^0.5 = sqrt(x))</div>div>
+<br>
+<div>Note: To use roots you simply use a number less that 1 (x^0.5 = sqrt(x))</div>
+<br>
 <div>Here are some examples to help</div>
 <ol>
   <li>((3*X^(22X^Y))+19)/2(</li>
