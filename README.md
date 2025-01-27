@@ -16,13 +16,13 @@
 <div>First create a function string with the following format</div>
 <br>
 <ol>
-  <li>__Std Arthmetic:__ (function/coef/var) +/-/* (function/coef/var)(</li>
-  <li>__Division:__ (function/coef/var) / (function/coef/var)</li>
-  <li>__Exponential:__ (function/coef/var) / (function/coef/var)</li>
-  <li>__Parantheis:__ ( (function/coef/var) ) {operator} (function/...)</li>
+  <li>**Std Arthmetic:** (function/coef/var) +/-/* (function/coef/var)(</li>
+  <li>**Division:** (function/coef/var) / (function/coef/var)</li>
+  <li>**Exponential:** (function/coef/var) / (function/coef/var)</li>
+  <li>**Parantheis:** ( (function/coef/var) ) {operator} (function/...)</li>
 </ol> 
 <br>
-<div>__Note:__ To use roots you simply use a number less that 1 (x^0.5 = sqrt(x))</div>
+<div>**Note:** To use roots you simply use a number less that 1 (x^0.5 = sqrt(x))</div>
 <br>
 <div>Here are some examples to help</div>
 <ol>
