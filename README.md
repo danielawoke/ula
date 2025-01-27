@@ -34,7 +34,7 @@
 <br>
 <div>for example: <strong>"X:10,YDSA:231.321"</strong></div>
 <br>
-<div>once you have a function string and a vars string, you pass those two values into the strToFuncEval(func,vars) function and recieve a float</div>
+<div>once you have a function string and a vars string, you pass those two values into the <strong>strToFuncEval(func,vars)</strong> function and recieve the computation of the function under those varibles</div>
 <h1>SET UP</h1>
 
 <div>Simply download the ula.h file into the project you'd like to use it in, and at the top of you src code's write <strong>#include "path/to/ula.h"</strong> From there you'll have access to the <strong>strToFuncEval(func,vars)</strong> function</div>
