@@ -14,9 +14,10 @@
 <ol>
   <li>Std Arthmetic: (function/coef/var) +/-/* (function/coef/var)(</li>
   <li>Division: (function/coef/var) / (function/coef/var)</li>
-  <li><li>Exponential: (function/coef/var) / (function/coef/var)</li><li>To use roots you simply use a number less that 1 (x^0.5 = sqrt(x))</li></li>
+  <li>Exponential: (function/coef/var) / (function/coef/var)</li>
   <li>Parantheis: ( (function/coef/var) ) {operator} (function/...)</li>
 </ol> 
+<div>Note: To use roots you simply use a number less that 1 (x^0.5 = sqrt(x))</div>div>
 <div>Here are some examples to help</div>
 <ol>
   <li>((3*X^(22X^Y))+19)/2(</li>
