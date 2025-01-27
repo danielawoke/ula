@@ -17,9 +17,9 @@
 <br>
 <ol>
   <li><strong>Std Arthmetic:</strong> (function/coef/var) +/-/* (function/coef/var)(</li>
-  <li>**Division:** (function/coef/var) / (function/coef/var)</li>
-  <li>**Exponential:** (function/coef/var) / (function/coef/var)</li>
-  <li>**Parantheis:** ( (function/coef/var) ) {operator} (function/...)</li>
+  <li><strong>Division:</strong> (function/coef/var) / (function/coef/var)</li>
+  <li><strong>Exponential:</strong> (function/coef/var) / (function/coef/var)</li>
+  <li><strong>Parantheis:</strong> ( (function/coef/var) ) {operator} (function/...)</li>
 </ol> 
 <br>
 <div>**Note:** To use roots you simply use a number less that 1 (x^0.5 = sqrt(x))</div>
@@ -30,13 +30,13 @@
   <li>20^(X)+Y^(0.5)</li>
   <li>Y*X^3</li>
 </ol> 
-<div>To declare varibles, use __STRICTLY UPPER CASE LETTERS.__ To defined those varibles, simply create a mapping string that follows the format __"VAR1:floatVal,VAR2:floatVal,..."__</div>
-<div>for example: __"X:10,YDSA:231.321"__</div>
+<div>To declare varibles, use <strong>STRICTLY UPPER CASE LETTERS.</strong> To defined those varibles, simply create a mapping string that follows the format <strong>"VAR1:floatVal,VAR2:floatVal,..."</strong></div>
+<div>for example: <strong>"X:10,YDSA:231.321"</strong></div>
 
 <div>once you have a function string and a vars string, you pass those two values into the strToFuncEval(func,vars) function and recieve a float</div>
 <h1>SET UP</h1>
 
-<div>Simply download the ula.h file into the project you'd like to use it in, and at the top of you src code's write __#include "path/to/ula.h"__ From there you'll have access to the __strToFuncEval(func,vars)__ function</div>
+<div>Simply download the ula.h file into the project you'd like to use it in, and at the top of you src code's write <strong>#include "path/to/ula.h"</strong> From there you'll have access to the <strong>strToFuncEval(func,vars)</strong> function</div>
 
 <h1>CAUTION</h1>
 
