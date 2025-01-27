@@ -5,17 +5,27 @@
 // using namepace std;
 
 int main(){
-    char function[2000];
-    char vars[2000];
-    printf("Enter Formula: ");
-    fgets(function, sizeof(function), stdin);
-    printf("Enter Varibles : ");
-    fgets(vars, sizeof(vars), stdin);
-    char buf[2000];
-    strncpy(buf, function,strlen(function));
-    printf("Computation of Formula: %f", strToFuncEval(buf,vars));
+    while(true){
+        char vars[2000];
+        char function[2000];
+        printf("Enter Formula: ");
+        scanf("%s",function);
+        if(strcmp(function,"exit") == 0){
+            break;
+        }        
+        
+        printf("Enter Varibles : ");
+        scanf("%s",vars);
+        if(strcmp(vars,"exit") == 0){
+            break;
+        }
+        printf("Computation of Formula: %f\n", strToFuncEval(function,vars));
+    }
     return 0;
   
 }
 //3X^(Y+3)
 //X:10,Y:5
+
+
+//96

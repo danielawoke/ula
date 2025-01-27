@@ -413,7 +413,7 @@ double evalFunction(char function[], struct vars varsDict){
 
 double strToFuncEval(char function[], char vars[]){
     struct vars varsDict = getVarsDict(vars);
-    double val = addSub(function,0,varsDict);
+    long double val = addSub(function,0,varsDict);
     return val;    
 }
 
