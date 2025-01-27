@@ -26,7 +26,7 @@
 <br>
 <div>Here are some examples to help</div>
 <ol>
-  <li>((3*X^(22X^Y))+19)/2(</li>
+  <li>((3*X^(22X^Y))+19)/2</li>
   <li>20^(X)+Y^(0.5)</li>
   <li>Y*X^3</li>
 </ol> 
