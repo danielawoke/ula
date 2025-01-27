@@ -16,13 +16,13 @@
 <div>First create a function string with the following format</div>
 <br>
 <ol>
-  <li>Std Arthmetic: (function/coef/var) +/-/* (function/coef/var)(</li>
-  <li>Division: (function/coef/var) / (function/coef/var)</li>
-  <li>Exponential: (function/coef/var) / (function/coef/var)</li>
-  <li>Parantheis: ( (function/coef/var) ) {operator} (function/...)</li>
+  <li>__Std Arthmetic:__ (function/coef/var) +/-/* (function/coef/var)(</li>
+  <li>__Division:__ (function/coef/var) / (function/coef/var)</li>
+  <li>__Exponential:__ (function/coef/var) / (function/coef/var)</li>
+  <li>__Parantheis:__ ( (function/coef/var) ) {operator} (function/...)</li>
 </ol> 
 <br>
-<div>Note: To use roots you simply use a number less that 1 (x^0.5 = sqrt(x))</div>
+<div>__Note:__ To use roots you simply use a number less that 1 (x^0.5 = sqrt(x))</div>
 <br>
 <div>Here are some examples to help</div>
 <ol>
@@ -30,13 +30,13 @@
   <li>20^(X)+Y^(0.5)</li>
   <li>Y*X^3</li>
 </ol> 
-<div>To declare varibles, use STRICTLY UPPER CASE LETTERS. To defined those varibles, simply create a mapping string that follows the format "VAR1:floatVal,VAR2:floatVal,..."</div>
-<div>for example: "X:10,YDSA:231.321"</div>
+<div>To declare varibles, use __STRICTLY UPPER CASE LETTERS.__ To defined those varibles, simply create a mapping string that follows the format __"VAR1:floatVal,VAR2:floatVal,..."__</div>
+<div>for example: __"X:10,YDSA:231.321"__</div>
 
 <div>once you have a function string and a vars string, you pass those two values into the strToFuncEval(func,vars) function and recieve a float</div>
 <h1>SET UP</h1>
 
-<div>Simply download the ula.h file into the project you'd like to use it in, and at the top of you src code's write #include "path/to/ula.h" From there you'll have access to the strToFuncEval(func,vars) function</div>
+<div>Simply download the ula.h file into the project you'd like to use it in, and at the top of you src code's write __#include "path/to/ula.h"__ From there you'll have access to the __strToFuncEval(func,vars)__ function</div>
 
 <h1>CAUTION</h1>
 
