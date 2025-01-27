@@ -15,12 +15,12 @@
   <li>Std Arthmetic: (function/coef/var) +/-/* (function/coef/var)(</li>
   <li>Division: (function/coef/var) / (function/coef/var)</li>
   <li><li>Exponential: (function/coef/var) / (function/coef/var)</li><li>To use roots you simply use a number less that 1 (x^0.5 = sqrt(x))</li></li>
-  <li>Parantheis: ( (function/coef/var) ) {operator} (function/...)(</li>
+  <li>Parantheis: ( (function/coef/var) ) {operator} (function/...)</li>
 </ol> 
 <div>Here are some examples to help</div>
 <ol>
   <li>((3*X^(22X^Y))+19)/2(</li>
-  <li>20^(X)+Y^(0.5)<li>
+  <li>20^(X)+Y^(0.5)</li>
   <li>Y*X^3</li>
 </ol> 
 <div>To declare varibles, use STRICTLY UPPER CASE LETTERS. To defined those varibles, simply create a mapping string that follows the format "VAR1:floatVal,VAR2:floatVal,..."</div>
