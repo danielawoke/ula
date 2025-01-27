@@ -16,7 +16,7 @@
 <div>First create a function string with the following format</div>
 <br>
 <ol>
-  <li>**Std Arthmetic:** (function/coef/var) +/-/* (function/coef/var)(</li>
+  <li><strong>Std Arthmetic:</strong> (function/coef/var) +/-/* (function/coef/var)(</li>
   <li>**Division:** (function/coef/var) / (function/coef/var)</li>
   <li>**Exponential:** (function/coef/var) / (function/coef/var)</li>
   <li>**Parantheis:** ( (function/coef/var) ) {operator} (function/...)</li>
