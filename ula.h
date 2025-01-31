@@ -136,7 +136,10 @@ struct functionParse isFunction(char function[],int index){
             ret.verd = true;
             ret.index = i;
             return ret;
-        }
+        }else if((function[i] == '+' || function[i] == '-' || i==strlen(function)) && !functionalTerm ){
+            ret.verd = false;
+            return ret;
+        } 
 
     }
     ret.verd = false;
@@ -220,6 +223,7 @@ double addSub(char function[], int index, struct vars varsDict){
             }
         }
         else if(function[index]>=65 && function[index]<=90){
+            
             struct var var = getVar(function, index);
             for(int j = 0; j<sizeof(varsDict.names); j++){
                 if(strcmp(var.name, varsDict.names[j])){
@@ -260,7 +264,6 @@ double addSub(char function[], int index, struct vars varsDict){
 
 // struct vars varsDict
 double evalFunction(char function[], struct vars varsDict){
-
     double num1;
     if(function[0] == '('){ 
         int parenCount = 1;
@@ -311,8 +314,10 @@ double evalFunction(char function[], struct vars varsDict){
             char* nextFunction = (char*)malloc((strlen(function)-i-1)*sizeof(char));
             nextFunction[strlen(function)-i-1] = '\0';
             strncpy(nextFunction, function+i+1, strlen(function)-i-1);
+            // printf("%f",evalFunction(nextFunction,varsDict));
             double ret = power(num1,evalFunction(nextFunction,varsDict));
             free(nextFunction);
+            
             return ret;
 
         }
