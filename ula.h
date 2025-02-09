@@ -186,7 +186,7 @@ double power(double base, double expo){
         ret*=mult;
         expo-=1;
     }
-    expo=(expo>=1.0001)?expo-1:expo;
+    expo=(expo>=1)?expo-1:expo;
     int root = (int)(floor((1/expo)));
     ret*=bisection(f,0,base+1,.000020001,100, base , root);
     return isNeg?1/ret:ret;
