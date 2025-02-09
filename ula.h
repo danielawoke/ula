@@ -179,16 +179,16 @@ double power(double base, double expo){
         return 1;
     }
     bool isNeg = expo<0?true:false;
+    double mult = base;
     expo = isNeg?expo*-1:expo;
     double ret = expo<1?1:base;
     while(expo>1){
-        ret*=ret;
+        ret*=mult;
         expo-=1;
     }
-    expo=(expo>=1)?expo-1:expo;
+    expo=(expo>=1.0001)?expo-1:expo;
     int root = (int)(floor((1/expo)));
-    ret*=bisection(f,0,base+1,.00000001,100, base , root);
-
+    ret*=bisection(f,0,base+1,.000020001,100, base , root);
     return isNeg?1/ret:ret;
 }
 
